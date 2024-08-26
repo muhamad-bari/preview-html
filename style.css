@@ -1,0 +1,37 @@
+#editor {
+    font-family: monospace;
+    height: 300px;
+    white-space: nowrap;
+    overflow: auto;
+    background: #000;
+    color: #d5d5d5;
+}
+
+#result {
+    border: 1px solid #ccc;
+    padding: 5px;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.full-screen {
+    width: 100%;
+    height: 100vh;
+}
+
+.phone-size {
+    width: 360px;
+    height: 640px;
+}
+
+.tablet-size {
+    width: 768px;
+    height: 1024px;
+}
+
+iframe {
+    border: none;
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+}

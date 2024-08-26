@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Check Responsive</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <h2>Code</h2>
+        <textarea id="editor" placeholder="Type your HTML here..." class="form-control"></textarea><br />
+        <button onclick="runCode()" class="btn btn-primary">Run Code</button>
+    </div>
+
+    <h2>Result</h2>
+    <button onclick="setFullScreen()" class="btn btn-secondary">Full Screen</button>
+    <button onclick="setPhoneSize()" class="btn btn-secondary">Phone Size</button>
+    <button onclick="setTabletSize()" class="btn btn-secondary">Tablet Size</button>
+    <button onclick="setDefaultSize()" class="btn btn-secondary">Default Size</button>
+    <div id="result">
+        <iframe id="resultFrame"></iframe>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
